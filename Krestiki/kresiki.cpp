@@ -9,6 +9,6 @@ int main ()
 	struct igra {
 	char name [15];
 	int schet;
-	} igrok;
+	} igrok1, igrok2;
 	return 0;
 }
