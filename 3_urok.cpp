@@ -20,7 +20,7 @@ int main ()
 	int j = 21;
 	int k;
 	cin>>g;
-	k = (g < 21) ? 21-g : (g-21)*2;
+	k = (g <= 21) ? 21-g : (g-21)*2;
 	cout<<k<<endl;
 	//3 задание (второй Файл подключен через include, на всякий случай пишу)
 	extern int var1;
