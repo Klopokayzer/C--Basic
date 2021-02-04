@@ -24,7 +24,7 @@ int main ()
 	cin>>g;
 	k = (g < 21) ? 21-g : (g-21)*2;
 	cout<<k<<endl;
-	//3 задание
+	//3 задание (второй Файл подключен через include, на всякий случай пишу)
 	extern int var1;
 	extern int var2;
 	extern int var3;
